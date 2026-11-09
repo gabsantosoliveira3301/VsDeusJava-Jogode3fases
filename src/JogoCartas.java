@@ -25,7 +25,7 @@ public class JogoCartas extends JFrame {
     // Só uso tons de cinza na interface, então deixei esta continha num lugar só.
     static Color cinza(int tom) { return new Color(tom,tom,tom); }
 
-    // ===== 1. REGRAS DO JOGO ================================================
+    // Principais regras do jogo:
     // A partida muda de fase. Isso ajuda a liberar só os botões que fazem sentido
     // naquele momento, em vez de deixar qualquer ação disponível o tempo todo.
     private enum Fase { INICIO, DUELO, REVELACAO, PORTA, JAVA, CURIOSIDADES, RESULTADO }
