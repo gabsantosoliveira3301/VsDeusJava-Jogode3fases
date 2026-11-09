@@ -1,4 +1,6 @@
 # Vs Deus Java
+Feito por **gabriel santos**
+
 
 Um protótipo de jogo com cenário 3D, desenvolvido em Java, como atividade prática das aulas de P.A. O jogo é dividido em **3 fases**, com sistema de pontuação, perguntas e interação com o cenário.
 
