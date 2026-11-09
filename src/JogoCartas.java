@@ -8,7 +8,7 @@ import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 
 /**
- * O Arquivo das Sombras.
+ * VsDeusJava 0.1.0V
  *
  * Eu dividi o projeto em alguns arquivos para não deixar tudo misturado:
  * - JogoCartas cuida das regras, das perguntas e da janela;
