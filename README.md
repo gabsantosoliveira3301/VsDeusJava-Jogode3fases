@@ -10,7 +10,7 @@ Abaixo estão algumas capturas do cenário. Elas também servem para visualizar 
 
 | Versão original | Versão refatorada |
 | --- | --- |
-| ![Versão original](capturas/original.png) | ![Versão refatorada](capturas/refatorado.png) |
+| ![Versão original](Screenshots/original.png) | ![Versão refatorada](Screenshots/refatorado.png) |
 
 ## Como os gráficos 3D foram feitos?
 
