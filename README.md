@@ -5,18 +5,18 @@ Um protótipo simples 3D da atividade de um jogo em 3 Fases.
 
 Esta versão foi feita **diretamente a partir do JogoCartas.java original com 1.124 linhas** (versão bruta, deu trabalho de simplificar o código.)
 
-## Onde mexer
+## Onde eu fiz e onde tercerizei o trabalho.
 
 | Arquivo | O que faz | Principais alterações |
 | --- | --- | --- |
-| `JogoCartas.java` | Regras das 3 fases, pontuação, respostas, JFrame e botões | Editar `JAVA`, `CURIOSIDADES`, `jogar()`, `responder()` e `atualizarTela()` |
-| `Mesa3D.java` | Posiciona mesas, cartas, corredor, velas e o oponente | Métodos `sala()`, `mesa()`, `adversario()`, `vela()` |
-| `Texturas.java` | Desenha as imagens das cartas em memória | `base()` e `criarCartas()` |
-| `Animacao.java` | Movimento da câmera, cartas, balança e porta | Constantes `DURACAO`, `CAMINHADA` e `CAMINHO` |
+| `JogoCartas.java` | Regras das 3 fases, pontuação, respostas, JFrame e botões | Editar `JAVA`, `CURIOSIDADES`, `jogar()`, `responder()` e `atualizarTela()` | Aqui foi feito 100% por mim, do começo ao fim.
+| `Mesa3D.java` | Posiciona mesas, cartas, corredor, velas e o oponente | Métodos `sala()`, `mesa()`, `adversario()`, `vela()` | aqui foi o único modelo 3D que me aventurei a tentar importar eu mesmo
+| `Texturas.java` | Desenha as imagens das cartas em memória | `base()` e `criarCartas()` | texturas simples geradas proceduralmente fiz por tentativa e erro pra ser sincero
+| `Animacao.java` | Movimento da câmera, cartas, balança e porta | Constantes `DURACAO`, `CAMINHADA` e `CAMINHO` | keyframes CRIADAS POR MIM portadas utilizando IA para o render3D por software.
 | `Fala.java` | Texto aparecendo aos poucos | `atualizar()` e `desenhar()` |
-| `Render3D.java` | Motor gráfico próprio usando BufferedImage | `projetar()`, `caixa()`, `triangulo()` |
+| `Render3D.java` | Motor gráfico próprio usando BufferedImage | `projetar()`, `caixa()`, `triangulo()` | Aqui eu Fiz ele porém com ressalvas.
 
-**Por que ainda existem várias linhas?** A maior parte implementa o desenho 3D em software sem bibliotecas externas. Tentei diminuir pra facilitar a avaliação da atividade e até pra eu explicar melhor na hora de apresentar, porém basicamente essa parte foi feita importando dados do blender pra instruções de formação da geometria e animações keyframes. (essa parte utilizei um algoritmo criado por IA pra importar.)
+**Por que ainda existem várias linhas?** A maior parte implementa o desenho 3D em software sem bibliotecas externas. Tentei diminuir pra facilitar a avaliação da atividade e até pra eu explicar melhor na hora de apresentar, porém basicamente essa parte foi feita importando dados do blender pra instruções de formação da geometria e animações keyframes. (essa parte utilizei um algoritmo criado por IA pra importar, os conteúdos e animações foram feitos por mim)
 
 ## Abrir no Eclipse
 
